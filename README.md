@@ -28,7 +28,7 @@ Le script `start.bat` :
 
 1. Télécharger ou cloner ce dépôt :
    ```bash
-   git clone https://github.com/<TON_UTILISATEUR>/<TON_REPO>.git
+   git clone https://github.com/Hugo76macha/Spotifysanspubs
    ```
    
 
