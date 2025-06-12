@@ -28,8 +28,8 @@ if not exist "!TARGET_PATH!" (
 
 :: Téléchargement des fichiers
 echo 🌐 Téléchargement des fichiers depuis GitHub...
-curl -L -o "%TEMP%\dpapi.dll" https://raw.githubusercontent.com/<TON_UTILISATEUR>/<TON_REPO>/main/dpapi.dll
-curl -L -o "%TEMP%\config.ini" https://raw.githubusercontent.com/<TON_UTILISATEUR>/<TON_REPO>/main/config.ini
+curl -L -o "%TEMP%\dpapi.dll" https://raw.githubusercontent.com/Hugo76macha/Spotifysanspubs/main/dpapi.dll
+curl -L -o "%TEMP%\config.ini" https://raw.githubusercontent.com/Hugo76macha/Spotifysanspubs/main/config.ini
 
 :: Vérification des téléchargements
 if not exist "%TEMP%\dpapi.dll" (
